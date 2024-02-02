@@ -17,9 +17,8 @@ export const MyData = {
     },
     about: {
         header: "My name's Mark. I'm an aspiring developer and I'm actively looking for opportunities to kickstart my career.",
-        body:   "I'm a graduating Computer Science student at the Polytechnic University of the Philippines - Manila. Currently an average developer with strong desire to create solutions for real-life problems. I spent my leisure hours reading articles and light novels. ",
-        footer: "I love to learn and explore. Always striving to learn new technologies that can further enhance my skills as a developer. Right now, I'm continuously exploring the MERN stack for fullstack development.",
-        // image:  Profile,
+        body:   "I'm a graduating Computer Science student at the Polytechnic University of the Philippines - Manila. I'm an enthusiastic developer with a strong love for technology and a passion for crafting engaging digital experiences. With a keen eye for detail and a knack for problem-solving, I thrive in dynamic environments where innovation is valued. ",
+        footer: "Excited to contribute my skills and enthusiasm to projects that both inspire and challenge, I'm committed to ongoing learning and development in the dynamic field of software development. Right now, I'm continuously exploring the MERN stack for full stack development.",
     },
     skills: {
         list: [
