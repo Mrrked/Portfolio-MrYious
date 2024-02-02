@@ -3,6 +3,7 @@
 
 import { FaFileDownload, FaGithubSquare, FaLinkedin } from "react-icons/fa"
 
+import { MyData } from './_data/data'
 import NavBar from './Navbar'
 import { Typewriter } from 'react-simple-typewriter'
 import avatar from './_assets/images/avatar.png'
@@ -13,11 +14,11 @@ export default function Home() {
     <main id='home' className="flex min-h-screen items-center bg-white text-black">
       <div className="flex border-black border-y-4 items-center justify-between w-full px-40 py-10">
         <div className="flex flex-col gap-5">
-          <div className=" text-6xl font-bold">Mark Edison Rosario</div>
-          <div className=" text-3xl font-bold">Full Stack Developer</div>
-          <div className=" text-lg w-2/3 font-medium h-14">
+          <div className=" text-6xl font-bold">{MyData.intro.name}</div>
+          <div className=" text-3xl font-bold">{MyData.intro.title}</div>
+          <div className=" text-lg w-2/3 font-medium ">
             <Typewriter
-              words={["Hi, I'm Mark! ", "I'm an aspiring developer and I'm actively looking for opportunities to kickstart my career "]}
+              words={MyData.intro.desc}
               loop={1}
               cursor
               cursorStyle='|'
@@ -33,11 +34,11 @@ export default function Home() {
                 CV / Resume
               </button>
             </a>
-            <button onClick={()=>{window.open('https://github.com/MrYious', "_blank", "noreferrer")}} className="flex border-4 border-black px-4 py-2 rounded items-center gap-2 text-md font-medium  hover:shadow-black shadow-md">
+            <button onClick={()=>{window.open(MyData.intro.links.github, "_blank", "noreferrer")}} className="flex border-4 border-black px-4 py-2 rounded items-center gap-2 text-md font-medium  hover:shadow-black shadow-md">
               <FaGithubSquare />
               GitHub
             </button>
-            <button onClick={()=>{window.open('https://www.linkedin.com/in/rosariomark/', "_blank", "noreferrer")}} className="flex border-4 border-black px-4 py-2 rounded items-center gap-2 text-md font-medium  hover:shadow-black shadow-md">
+            <button onClick={()=>{window.open(MyData.intro.links.linkedin, "_blank", "noreferrer")}} className="flex border-4 border-black px-4 py-2 rounded items-center gap-2 text-md font-medium  hover:shadow-black shadow-md">
               <FaLinkedin />
               LinkedIn
             </button>
