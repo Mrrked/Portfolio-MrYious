@@ -8,7 +8,8 @@
 export const MyData = {
     intro: {
         name:   "Mark Edison Rosario",
-        title:  "Aspiring Software Engineer",
+        title:  "Full Stack Developer",
+        desc: ["Hi, you can call me Mark!", "I code ideas into existence, one line at a time."],
         links: {
             github:     "https://github.com/MrYious",
             linkedin:   "https://www.linkedin.com/in/rosariomark/",
