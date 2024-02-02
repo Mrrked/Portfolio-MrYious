@@ -3,8 +3,12 @@
 
 import { FaFileDownload, FaGithubSquare, FaLinkedin } from "react-icons/fa"
 
+import About from "./About"
+import Contact from "./Contact"
 import { MyData } from './_data/data'
 import NavBar from './Navbar'
+import Project from "./Project"
+import Skill from "./Skill"
 import { Typewriter } from 'react-simple-typewriter'
 import avatar from './_assets/images/avatar.png'
 
@@ -12,7 +16,7 @@ export default function Home() {
   return (<>
     <NavBar></NavBar>
     <main id='home' className="flex min-h-screen items-center bg-white text-black">
-      <div className="flex border-black border-y-4 items-center justify-between w-full px-40 py-10">
+      <div className="flex border-black  items-center justify-between w-full px-40 py-10">
         <div className="flex flex-col gap-5">
           <div className=" text-6xl font-bold">{MyData.intro.name}</div>
           <div className=" text-3xl font-bold">{MyData.intro.title}</div>
@@ -47,14 +51,9 @@ export default function Home() {
         <img src={avatar.src} className=' h-[500px]' alt="avatar" />
       </div>
     </main>
-    <section id='about' className="h-[500px]">
-      About Me
-    </section>
-    <section id='skills' className="h-[500px]">
-      Skills
-    </section>
-    <section id='projects' className="h-[500px]">
-      Projects
-    </section>
+    <About about={MyData.about}/>
+    <Skill/>
+    <Project/>
+    <Contact/>
   </>);
 }
