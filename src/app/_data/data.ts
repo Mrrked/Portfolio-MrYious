@@ -63,7 +63,7 @@ export const MyData = {
             image: HateShield,
             description: "A website application that identifies if a given statement is hate speech or non-hate speech. It uses a trained Logistic Regression model and an Ensemble Model. (Thesis) ",
             techs: ["ReactJS", "NextJs", "Flask", "NLP", "ML/AI"],
-            github: "N/A",
+            github: "https://github.com/MrYious/HateShield-Frontend",
             demo: "N/A",
         },
         {
