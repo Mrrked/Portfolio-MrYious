@@ -5,6 +5,12 @@
 // import ProjectIMG4 from "../assets/Projects/OrderForm.png";
 // import ProjectIMG5 from "../assets/Projects/SurveyForm.png";
 
+import { BiLogoCPlusPlus, BiLogoFlask, BiLogoJavascript, BiLogoMongodb, BiLogoTypescript } from "react-icons/bi";
+import { FaCss3Alt, FaGit, FaGithub, FaHtml5, FaJava, FaLaravel, FaNodeJs, FaPhp, FaPizzaSlice, FaPython, FaReact } from "react-icons/fa";
+import { SiMysql, SiNextdotjs, SiPostman, SiTailwindcss } from "react-icons/si";
+
+import { TbFileTypeSql } from "react-icons/tb";
+
 export const MyData = {
     intro: {
         name:   "Mark Edison Rosario",
@@ -22,21 +28,33 @@ export const MyData = {
     },
     skills: {
         list: [
-            { name: "HTML",         icon: "icomoon-free:html-five",     category: "Frontend"},
-            { name: "CSS",          icon: "simple-icons:css3",          category: "Frontend"},
-            { name: "Javascript",   icon: "fa6-brands:js",              category: "Frontend"},
-            { name: "ReactJS",      icon: "ri:reactjs-fill",            category: "Frontend"},
+            { name: "HTML",         icon: FaHtml5,              category: "Frontend"},
+            { name: "CSS",          icon: FaCss3Alt,            category: "Frontend"},
+            { name: "Javascript",   icon: BiLogoJavascript,     category: "Frontend"},
+            { name: "ReactJS",      icon: FaReact,              category: "Frontend"},
+            { name: "Typescript",   icon: BiLogoTypescript,     category: "Frontend"},
+            { name: "NextJS",       icon: SiNextdotjs,          category: "Frontend"},
+            { name: "TailwindCSS",  icon: SiTailwindcss,        category: "Frontend"},
 
-            { name: "NodeJS",       icon: "fa-brands:node-js",          category: "Backend"},
-            { name: "Java",         icon: "simple-icons:java",          category: "Backend"},
-            { name: "C",            icon: "teenyicons:c-outline",       category: "Backend"},
-            { name: "PHP",          icon: "akar-icons:php-fill",        category: "Backend"},
-            { name: "Python",       icon: "fa6-brands:python",          category: "Backend"},
+            { name: "NodeJS",       icon: FaNodeJs ,     category: "Backend"},
+            { name: "ExpressJS",    icon: FaPizzaSlice ,     category: "Backend"},
+            { name: "REST Api",     icon: FaPizzaSlice ,     category: "Backend"},
+            { name: "Flask",        icon: BiLogoFlask,     category: "Backend"},
+            { name: "Python",       icon: FaPython,     category: "Backend"},
+            { name: "Laravel",      icon: FaLaravel,     category: "Backend"},
+            { name: "PHP",          icon: FaPhp,     category: "Backend"},
+            { name: "SQL",          icon: TbFileTypeSql,     category: "Backend"},
+            { name: "MySQL",        icon: SiMysql,     category: "Backend"},
+            { name: "MongoDB",      icon: BiLogoMongodb,     category: "Backend"},
 
-            { name: "Git",          icon: "cib:git",                    category: "Tools"},
-            { name: "GitHub",       icon: "akar-icons:github-fill",     category: "Tools"},
+            { name: "Git",          icon: FaGit,     category: "Other"},
+            { name: "GitHub",       icon: FaGithub,     category: "Other"},
+            { name: "Postman",      icon: SiPostman,     category: "Other"},
+            { name: "Java",         icon: FaJava,     category: "Other"},
+            { name: "C/C++",        icon: BiLogoCPlusPlus,     category: "Other"},
+            { name: "VB.Net",       icon: FaPizzaSlice,     category: "Other"},
         ],
-        note:   "I've been self-studying MERN stack for almost a year as this is the stack that I am interested to pursue. Nevertheless, our university made us learn various languages and technologies and I've included them to showcase my diverse understanding of languages and my ability to quickly learn if demanded. "
+        note:   "I've been using and learning the MERN stack and its related libraries for around 2 years now as this is the stack that I am really interested to pursue. Nevertheless, I've learned various languages and technologies from our university which greatly helped build my fundamentals and I've included them to showcase my diverse understanding of languages and my ability to quickly learn if demanded. "
     },
     projects: [
         {
