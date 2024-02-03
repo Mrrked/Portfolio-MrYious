@@ -1,4 +1,3 @@
-// Import the image file
 "use client"
 
 import { FaFileDownload, FaGithubSquare, FaLinkedin } from "react-icons/fa"
@@ -52,8 +51,8 @@ export default function Home() {
       </div>
     </main>
     <About about={MyData.about}/>
-    <Skill/>
-    <Project/>
-    <Contact/>
+    <Skill skills={MyData.skills}/>
+    <Project projects={MyData.projects}/>
+    <Contact contact={MyData.contact}/>
   </>);
 }
