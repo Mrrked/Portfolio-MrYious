@@ -1,15 +1,16 @@
 // import Profile from "../assets/profile.jpg";
-// import ProjectIMG1 from "../assets/Projects/TRP.png";
-// import ProjectIMG2 from "../assets/Projects/NightSpot.png";
-// import ProjectIMG3 from "../assets/Projects/TodoApp.png";
-// import ProjectIMG4 from "../assets/Projects/OrderForm.png";
-// import ProjectIMG5 from "../assets/Projects/SurveyForm.png";
 
 import { BiLogoCPlusPlus, BiLogoFlask, BiLogoJavascript, BiLogoMongodb, BiLogoTypescript } from "react-icons/bi";
 import { FaCss3Alt, FaGit, FaGithub, FaHtml5, FaJava, FaLaravel, FaNodeJs, FaPhp, FaPizzaSlice, FaPython, FaReact } from "react-icons/fa";
 import { SiMysql, SiNextdotjs, SiPostman, SiTailwindcss } from "react-icons/si";
 
+import BloodLink from "../_assets/images/project_img/BloodLink.png";
+import HateShield from "../_assets/images/project_img/HateShield.png";
+import MaryAlstonHotel from "../_assets/images/project_img/MaryAlstonHotel.png";
+import NightSpot from "../_assets/images/project_img/NightSpot.png";
+import TRP from "../_assets/images/project_img/TRP.png";
 import { TbFileTypeSql } from "react-icons/tb";
+import placeholder from "../_assets/images/project_img/placeholder.png";
 
 export const MyData = {
     intro: {
@@ -58,40 +59,53 @@ export const MyData = {
     },
     projects: [
         {
+            title: "HateShield",
+            image: HateShield,
+            description: "A website application that identifies if a given statement is hate speech or non-hate speech. It uses a trained Logistic Regression model and an Ensemble Model. (Thesis) ",
+            techs: ["ReactJS", "NextJs", "Flask", "NLP", "ML/AI"],
+            github: "N/A",
+            demo: "N/A",
+        },
+        {
             title: "Travel Route Planner",
-            // image: ProjectIMG1,
-            description: "A web application that calculates the most optimal route in the given multiple destination. It solves the Traveling Salesman Problem using Brute Force and Heuristic Algorithm. ",
+            image: TRP,
+            description: "A website that calculates the most optimal route in the given multiple destination. It solves the Traveling Salesman Problem using Brute Force and Heuristic Algorithm. ",
             techs: ["HTML", "CSS", "JS", "ReactJS", "Maps API"],
-            link: "https://github.com/MrYious/Automatic-Travel-Route-Planner"
+            github: "https://github.com/MrYious/Automatic-Travel-Route-Planner",
+            demo: "N/A"
         },
         {
             title: "NightSpot",
-            // image: ProjectIMG2,
-            description: "A forum application that allows users to register for an account in order to create or join popular spots (channels) and post, comment and reply. Inspired by Reddit",
+            image: NightSpot,
+            description: "A desktop forum app that allows users to register for an account in order to create or join popular spots (channels) and post, comment and reply. Inspired by Reddit",
             techs: ["Java", "JavaFX", "MySQL"],
-            link: "https://github.com/MrYious/NightSpot"
+            github: "https://github.com/MrYious/NightSpot",
+            demo: "N/A"
         },
         {
-            title: "ToDo Application",
-            // image: ProjectIMG3,
-            description: "A simple todo application made while learning and practicing ReactJS",
-            techs: ["HTML", "CSS", "JS", "ReactJS"],
-            link: "https://github.com/MrYious/TodoApp"
+            title: "BloodLink",
+            image: BloodLink,
+            description: "A social application that allows user to find donors based on compatibility as well as donate blood for others. Users have donation history and can rate each other after every successful donation.",
+            techs: ["ReactJS", "NodeJS", "MySQL", "Express"],
+            github: "https://github.com/MrYious/BloodLink",
+            demo: "N/A"
         },
         {
-            title: "Order Form",
-            // image: ProjectIMG4,
-            description: "A simple application required by Website Development course subject to highlight database connection and query language.",
-            techs: ["HTML", "CSS", "JS", "PHP", "MySQL", "SQL"],
-            link: "https://github.com/MrYious/WebDevelopment/tree/master/Group%20Activities/OrderForm"
+            title: "Mary Alston Hotel",
+            image: MaryAlstonHotel,
+            description: "A hotel booking and reservation management system for a capstone project. It includes an admin interface in /admin that allows also includes payment system and sales report generation. ",
+            techs: ["HTML", "CSS", "JS", "PHP", "MySQL"],
+            github: "https://github.com/MrYious/MaryAlstonHotel",
+            demo: "https://maryalstonhotel.000webhostapp.com/alston_main.html"
         },
-        {
-            title: "Survey Form",
-            // image: ProjectIMG5,
-            description: "A simple application required by Website Development course subject to highlight PHP Session",
-            techs: ["HTML", "CSS", "JS", "PHP"],
-            link: "https://github.com/MrYious/WebDevelopment/tree/master/Group%20Activities/SurveyForm"
-        },
+        // {
+        //     title: "Title",
+        //     image: placeholder,
+        //     description: "A website that calculates the most optimal route in the given multiple destination. It solves the Traveling Salesman Problem using Brute Force and Heuristic Algorithm. ",
+        //     techs: ["HTML", "CSS", "JS", "ReactJS"],
+        //     github: "N/A",
+        //     demo: "N/A"
+        // }
    ],
     contact: {
         email:      "rosariomark37@gmail.com",
