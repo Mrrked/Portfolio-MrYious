@@ -4,6 +4,7 @@ import { FaFileDownload, FaGithubSquare, FaLinkedin } from "react-icons/fa"
 
 import About from "./About"
 import Contact from "./Contact"
+import Footer from "./Footer"
 import { MyData } from './_data/data'
 import NavBar from './Navbar'
 import Project from "./Project"
@@ -54,5 +55,6 @@ export default function Home() {
     <Skill skills={MyData.skills}/>
     <Project projects={MyData.projects}/>
     <Contact contact={MyData.contact}/>
+    <Footer/>
   </>);
 }
