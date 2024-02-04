@@ -15,7 +15,7 @@ export default function ProjectItem(props: { project: { title: string; image: an
             {props.project.description}
         </div>
         <div className="flex flex-wrap gap-1 justify-center pb-2">
-            {props.project.techs.map((tech) => <div className="px-2 border-2 border-black rounded-full">
+            {props.project.techs.map((tech, i) => <div key={i} className="px-2 border-2 border-black rounded-full">
                 {tech}
             </div>)}
         </div>

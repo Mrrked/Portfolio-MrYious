@@ -1,5 +1,6 @@
-import { Button, Element, Events, Link, animateScroll as scroll, scrollSpy } from 'react-scroll';
 import { FaElementor, FaHome, FaRegAddressBook, FaRegAddressCard, FaTools } from "react-icons/fa";
+
+import { Link } from 'react-scroll';
 
 export default function NavBar(){
 

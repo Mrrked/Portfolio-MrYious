@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function Skill( props: { skills: { list: { name: string, icon: IconType, category: string }[], note: string}}){
 
     const [filter, setFilter] = useState("All");
-
+    const [filters, setFilters] = useState(["All", "Frontend", "Backend", "Other"])
     const handleFilterChange = (val: string) => {
         setFilter(val);
     }
@@ -16,21 +16,19 @@ export default function Skill( props: { skills: { list: { name: string, icon: Ic
                 My Skills
             </div>
             <div className=" flex flex-col gap-8 items-center w-2/3">
-                <div className="flex text-lg font-bold ">
-                    {["All", "Frontend", "Backend", "Other"].map((text)=> <>
-                        <button onClick={()=>{handleFilterChange(text)}} className={`px-4 py-2 hover:bg-gray-200 ${filter === text ? "border-b-4 border-black bg-gray-200" : "border-b-4 border-gray-400"}`}>
+                <div key={"Filter"} className="flex text-lg font-bold ">
+                    {filters.map((text, i)=>
+                        <button key={text} onClick={()=>{handleFilterChange(text)}} className={`px-4 py-2 hover:bg-gray-200 ${filter === text ? "border-b-4 border-black bg-gray-200" : "border-b-4 border-gray-400"}`}>
                             {text}
-                        </button>
-                    </>)}
+                        </button>)
+                    }
                 </div>
                 <div className="flex flex-wrap justify-center gap-1">
-                    {props.skills.list.filter((skill) => {return skill.category === filter || filter === 'All' }).map((skill) => <SkillItem skill={skill}/>)}
+                    {props.skills.list.filter((skill) => {return skill.category === filter || filter === 'All' }).map((skill, i) => <SkillItem key={skill.name} skill={skill}/>)}
                 </div>
                 <div className="text-center text-xs">
-                    <div className="">Note:</div>
-                    <div className=" ">
-                        {props.skills.note}
-                    </div>
+                    <div>Note:</div>
+                    <div>{props.skills.note}</div>
                 </div>
             </div>
         </section>

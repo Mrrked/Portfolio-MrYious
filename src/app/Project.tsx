@@ -7,7 +7,7 @@ export default function Project(props: { projects: { title: string; image: any; 
                 My Projects
             </div>
             <div className="flex flex-wrap justify-center items-center px-10 gap-4 ">
-                {props.projects.map((project) => <ProjectItem project={project}/>)}
+                {props.projects.map((project, i) => <ProjectItem key={i} project={project}/>)}
             </div>
         </section>
     )
