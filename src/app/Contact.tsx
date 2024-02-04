@@ -7,19 +7,19 @@ export default function Contact(props: { contact: { email: string; address: stri
             <div className="text-xl font-bold border-4 border-black px-4 py-2 rounded">
                 Contact Me
             </div>
-            <div className="flex gap-40">
+            <div className="flex flex-col sm:flex-row gap-10 sm:gap-40">
                 <div className="flex flex-col gap-3 font-bold text-sm">
                     <div className=" font-bold text-lg">Feel free to reach me out</div>
                     <div className="flex items-center gap-2">
-                        <BiLogoGmail className="text-5xl border-2 border-black p-2 rounded text-red-700"/>
+                        <BiLogoGmail className="text-5xl border-[1px] border-black p-2 rounded text-red-700"/>
                         <div>{props.contact.email}</div>
                     </div>
                     <div className="flex items-center gap-2">
-                        <FaLocationDot className="text-5xl border-2 border-black p-2 rounded text-blue-700"/>
+                        <FaLocationDot className="text-5xl border-[1px] border-black p-2 rounded text-blue-700"/>
                         <div>{props.contact.address}</div>
                     </div>
                     <div className="flex items-center gap-2">
-                        <BiSolidPhone className="text-5xl border-2 border-black p-2 rounded text-green-700"/>
+                        <BiSolidPhone className="text-5xl border-[1px] border-black p-2 rounded text-green-700"/>
                         <div>{props.contact.phone}</div>
                     </div>
                 </div>
