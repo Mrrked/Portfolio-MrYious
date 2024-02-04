@@ -61,7 +61,7 @@ export default function Home() {
     <About about={MyData.about}/>
     <img src={vector2.src} alt="vector2" className="absolute hidden sm:block -left-32"/>
     <Skill skills={MyData.skills}/>
-    <img src={vector4.src} alt="vector4" className="absolute right-0 -z-10"/>
+    <img src={vector4.src} alt="vector4" className="absolute hidden sm:block right-0 -z-10"/>
     <Project projects={MyData.projects}/>
     <img src={vector5.src} alt="vector5" className="absolute hidden sm:block -left-32"/>
     <Contact contact={MyData.contact}/>
