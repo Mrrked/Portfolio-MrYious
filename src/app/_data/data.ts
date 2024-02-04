@@ -77,7 +77,7 @@ export const MyData = {
         {
             title: "NightSpot",
             image: NightSpot,
-            description: "A desktop forum app that allows users to register for an account in order to create or join popular spots (channels) and post, comment and reply. Inspired by Reddit",
+            description: "A desktop forum application that allows users to register for an account in order to create or join popular spots (channels) and post, comment and reply. Inspired by Reddit",
             techs: ["Java", "JavaFX", "MySQL"],
             github: "https://github.com/MrYious/NightSpot",
             demo: "N/A"
@@ -85,7 +85,7 @@ export const MyData = {
         {
             title: "BloodLink",
             image: BloodLink,
-            description: "A social application that allows user to find donors based on compatibility as well as donate blood for others. Users have donation history and can rate each other after every successful donation.",
+            description: "A social application for donating blood and finding donors. Users have own timeline containing donation history and reviews where they can rate each other after every successful donation.",
             techs: ["ReactJS", "NodeJS", "MySQL", "Express"],
             github: "https://github.com/MrYious/BloodLink",
             demo: "https://bloodlink.vercel.app/"
