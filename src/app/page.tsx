@@ -32,7 +32,7 @@ export default function Home() {
             />
           </div>
           <div className="flex gap-5">
-            <a href="/resume.pdf" download="Resume - Mark Edison Rosario">
+            <a href="/Resume - Mark Edison Rosario.pdf" download="Resume - Mark Edison Rosario">
               <button onClick={()=>{}} className="flex border-4 border-black px-2 py-2 rounded items-center gap-2 text-md font-medium hover:shadow-black shadow-md">
                 <FaFileDownload />
                 CV / Resume
