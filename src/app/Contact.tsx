@@ -3,13 +3,13 @@ import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaLocationDot, FaReddit 
 
 export default function Contact(props: { contact: { email: string; address: string; phone: string; socials: { github: string; facebook: string; linkedin: string; instagram: string; reddit: string; }; }}){
     return(
-        <section id='contact' className="flex flex-col items-center py-7 gap-7">
-            <div className="text-2xl font-bold border-4 border-black px-4 py-2 rounded">
+        <section id='contact' className="flex flex-col items-center py-7 gap-10">
+            <div className="text-xl font-bold border-4 border-black px-4 py-2 rounded">
                 Contact Me
             </div>
-            <div className="flex gap-32">
-                <div className="flex flex-col gap-3 text-md font-bold">
-                    <div className=" font-bold text-xl">Feel free to reach me out</div>
+            <div className="flex gap-40">
+                <div className="flex flex-col gap-3 font-bold text-sm">
+                    <div className=" font-bold text-lg">Feel free to reach me out</div>
                     <div className="flex items-center gap-2">
                         <BiLogoGmail className="text-5xl border-2 border-black p-2 rounded text-red-700"/>
                         <div>{props.contact.email}</div>
@@ -23,8 +23,8 @@ export default function Contact(props: { contact: { email: string; address: stri
                         <div>{props.contact.phone}</div>
                     </div>
                 </div>
-                <div className="flex flex-col gap-3  items-center">
-                    <div className=" font-bold text-xl">My Socials</div>
+                <div className="flex flex-col gap-3 items-center">
+                    <div className=" font-bold text-lg">My Socials</div>
                     <div className="flex gap-3 text-3xl">
                         <a href={props.contact.socials.github} target="_blank" className=" cursor-pointer p-2 border-2 border-black rounded shadow-black shadow-sm hover:shadow-md hover:shadow-black">
                             <FaGithub />

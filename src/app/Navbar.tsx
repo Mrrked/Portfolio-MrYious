@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 export default function NavBar(){
 
     return(
-        <div className='fixed top-1/4 right-0 text-sm flex flex-col items-center justify-center rounded gap-4 mr-5 py-3 px-2 border-2 border-black bg-white'>
+        <div className='fixed top-1/4 right-0 text-xs flex flex-col items-center justify-center rounded gap-4 mr-5 py-3 px-2 border-[3px] border-black bg-white'>
             <Link
                 className='flex flex-col items-center cursor-pointer'
                 to="home"
@@ -13,7 +13,7 @@ export default function NavBar(){
                 smooth={true}
                 duration={1000}
             >
-                <FaHome className='text-3xl'/>
+                <FaHome className='text-2xl'/>
                 Home
             </Link>
             <Link
@@ -23,7 +23,7 @@ export default function NavBar(){
                 smooth={true}
                 duration={1000}
             >
-                <FaRegAddressCard className='text-3xl'/>
+                <FaRegAddressCard className='text-2xl'/>
                 About
             </Link>
             <Link
@@ -33,7 +33,7 @@ export default function NavBar(){
                 smooth={true}
                 duration={1000}
             >
-                <FaTools className='text-3xl'/>
+                <FaTools className='text-2xl'/>
                 Skills
             </Link>
             <Link
@@ -43,7 +43,7 @@ export default function NavBar(){
                 smooth={true}
                 duration={1000}
             >
-                <FaElementor className='text-3xl'/>
+                <FaElementor className='text-2xl'/>
                 Projects
             </Link>
             <Link
@@ -53,7 +53,7 @@ export default function NavBar(){
                 smooth={true}
                 duration={1000}
             >
-                <FaRegAddressBook className='text-3xl'/>
+                <FaRegAddressBook className='text-2xl'/>
                 Contact
             </Link>
         </div>
