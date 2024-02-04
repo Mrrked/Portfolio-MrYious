@@ -64,7 +64,7 @@ export const MyData = {
             description: "A website application that identifies if a given statement is hate speech or non-hate speech. It uses a trained Logistic Regression model and an Ensemble Model. (Thesis) ",
             techs: ["ReactJS", "NextJs", "Flask", "NLP", "ML/AI"],
             github: "https://github.com/MrYious/HateShield-Frontend",
-            demo: "N/A",
+            demo: "https://hateshield.vercel.app/",
         },
         {
             title: "Travel Route Planner",
@@ -72,7 +72,7 @@ export const MyData = {
             description: "A website that calculates the most optimal route in the given multiple destination. It solves the Traveling Salesman Problem using Brute Force and Heuristic Algorithm. ",
             techs: ["HTML", "CSS", "JS", "ReactJS", "Maps API"],
             github: "https://github.com/MrYious/Automatic-Travel-Route-Planner",
-            demo: "N/A"
+            demo: "https://travel-route-planner-315906.web.app/"
         },
         {
             title: "NightSpot",
@@ -88,7 +88,7 @@ export const MyData = {
             description: "A social application that allows user to find donors based on compatibility as well as donate blood for others. Users have donation history and can rate each other after every successful donation.",
             techs: ["ReactJS", "NodeJS", "MySQL", "Express"],
             github: "https://github.com/MrYious/BloodLink",
-            demo: "N/A"
+            demo: "https://bloodlink.vercel.app/"
         },
         {
             title: "Mary Alston Hotel",
