@@ -4,7 +4,7 @@ export default function ProjectItem(props: { project: { title: string; image: an
         window.open(link, "_blank", "noreferrer")
     }
 
-    return(<div className="flex flex-col sm:w-1/4 border-black border-[1px] rounded text-center shadow-md shadow-black">
+    return(<div className="flex flex-col z-50 sm:w-1/4 border-black border-[1px] rounded text-center shadow-md shadow-black">
         <div className=" bg-black rounded">
             <img src={props.project.image.src} alt={props.project.title} className=" rounded-t" />
         </div>
