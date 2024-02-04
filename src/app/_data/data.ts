@@ -108,7 +108,7 @@ export const MyData = {
         // }
    ],
     contact: {
-        email:      "rosariomark37@gmail.com",
+        email:      "rosariomark37@gmail",
         address:    "City of San Pedro, Laguna",
         phone:      "(+63) 932 283 1860",
         socials: {
