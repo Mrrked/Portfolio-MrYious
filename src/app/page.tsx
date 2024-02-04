@@ -20,9 +20,9 @@ import vector5 from './_assets/images/vector_img/5.png'
 export default function Home() {
   return (<div  className=" ">
     <NavBar></NavBar>
-    <img src={vector3.src} alt="vector3" className="absolute -top-20 -left-20 "/>
+    <img src={vector3.src} alt="vector3" className="absolute -top-44 -left-32 "/>
     <main id='home' className="flex min-h-screen items-center bg-white text-black">
-      <div className="flex border-black  items-center justify-between w-full px-40 py-10 border-y-8 border-b-[12px] ">
+      <div className="flex border-black  items-center justify-between w-full px-40 py-10 ">
         <div className="flex flex-col gap-5">
           <div className=" text-5xl font-bold">{MyData.intro.name}</div>
           <div className=" text-2xl font-bold">{MyData.intro.title}</div>
