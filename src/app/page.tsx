@@ -11,11 +11,11 @@ import Project from "./Project"
 import Skill from "./Skill"
 import { Typewriter } from 'react-simple-typewriter'
 import avatar from './_assets/images/avatar.png'
-import vector1 from './_assets/images/vector_img/1.png'
-import vector2 from './_assets/images/vector_img/2.png'
-import vector3 from './_assets/images/vector_img/3.png'
-import vector4 from './_assets/images/vector_img/4.png'
-import vector5 from './_assets/images/vector_img/5.png'
+import vector1 from './_assets/images/vector_img/1.webp'
+import vector2 from './_assets/images/vector_img/2.webp'
+import vector3 from './_assets/images/vector_img/3.webp'
+import vector4 from './_assets/images/vector_img/4.webp'
+import vector5 from './_assets/images/vector_img/5.webp'
 
 export default function Home() {
   return (<div  className=" ">
