@@ -4,13 +4,14 @@ import { BiLogoCPlusPlus, BiLogoFlask, BiLogoJavascript, BiLogoMongodb, BiLogoTy
 import { FaCss3Alt, FaGit, FaGithub, FaHtml5, FaJava, FaLaravel, FaNodeJs, FaPhp, FaPizzaSlice, FaPython, FaReact } from "react-icons/fa";
 import { SiMysql, SiNextdotjs, SiPostman, SiTailwindcss } from "react-icons/si";
 
-import BloodLink from "../_assets/images/project_img/BloodLink.png";
-import HateShield from "../_assets/images/project_img/HateShield.png";
-import MaryAlstonHotel from "../_assets/images/project_img/MaryAlstonHotel.png";
-import NightSpot from "../_assets/images/project_img/NightSpot.png";
-import TRP from "../_assets/images/project_img/TRP.png";
+import BloodLink from "../_assets/images/project_img/BloodLink.webp";
+import HateShield from "../_assets/images/project_img/HateShield.webp";
+import MaryAlstonHotel from "../_assets/images/project_img/MaryAlstonHotel.webp";
+import NightSpot from "../_assets/images/project_img/NightSpot.webp";
+import TRP from "../_assets/images/project_img/TRP.webp";
 import { TbFileTypeSql } from "react-icons/tb";
-import placeholder from "../_assets/images/project_img/placeholder.png";
+import ToDo from "../_assets/images/project_img/ToDo.webp";
+import placeholder from "../_assets/images/project_img/placeholder.webp";
 
 export const MyData = {
     intro: {
@@ -37,23 +38,23 @@ export const MyData = {
             { name: "NextJS",       icon: SiNextdotjs,          category: "Frontend"},
             { name: "TailwindCSS",  icon: SiTailwindcss,        category: "Frontend"},
 
-            { name: "NodeJS",       icon: FaNodeJs ,     category: "Backend"},
-            { name: "ExpressJS",    icon: FaPizzaSlice ,     category: "Backend"},
-            { name: "REST Api",     icon: FaPizzaSlice ,     category: "Backend"},
-            { name: "Flask",        icon: BiLogoFlask,     category: "Backend"},
-            { name: "Python",       icon: FaPython,     category: "Backend"},
-            { name: "Laravel",      icon: FaLaravel,     category: "Backend"},
-            { name: "PHP",          icon: FaPhp,     category: "Backend"},
-            { name: "SQL",          icon: TbFileTypeSql,     category: "Backend"},
-            { name: "MySQL",        icon: SiMysql,     category: "Backend"},
-            { name: "MongoDB",      icon: BiLogoMongodb,     category: "Backend"},
+            { name: "NodeJS",       icon: FaNodeJs ,            category: "Backend"},
+            { name: "ExpressJS",    icon: FaPizzaSlice ,        category: "Backend"},
+            { name: "REST Api",     icon: FaPizzaSlice ,        category: "Backend"},
+            { name: "Flask",        icon: BiLogoFlask,          category: "Backend"},
+            { name: "Python",       icon: FaPython,             category: "Backend"},
+            { name: "Laravel",      icon: FaLaravel,            category: "Backend"},
+            { name: "PHP",          icon: FaPhp,                category: "Backend"},
+            { name: "SQL",          icon: TbFileTypeSql,        category: "Backend"},
+            { name: "MySQL",        icon: SiMysql,              category: "Backend"},
+            { name: "MongoDB",      icon: BiLogoMongodb,        category: "Backend"},
 
-            { name: "Git",          icon: FaGit,     category: "Other"},
-            { name: "GitHub",       icon: FaGithub,     category: "Other"},
-            { name: "Postman",      icon: SiPostman,     category: "Other"},
-            { name: "Java",         icon: FaJava,     category: "Other"},
-            { name: "C/C++",        icon: BiLogoCPlusPlus,     category: "Other"},
-            { name: "VB.Net",       icon: FaPizzaSlice,     category: "Other"},
+            { name: "Git",          icon: FaGit,                category: "Other"},
+            { name: "GitHub",       icon: FaGithub,             category: "Other"},
+            { name: "Postman",      icon: SiPostman,            category: "Other"},
+            { name: "Java",         icon: FaJava,               category: "Other"},
+            { name: "C/C++",        icon: BiLogoCPlusPlus,      category: "Other"},
+            { name: "VB.Net",       icon: FaPizzaSlice,         category: "Other"},
         ],
         note:   "I've been using and learning the MERN stack and its related libraries for around 2 years now as this is the stack that I am really interested to pursue. Nevertheless, I've learned various languages and technologies from our university which greatly helped build my fundamentals and I've included them to showcase my diverse understanding of languages and my ability to quickly learn if demanded. "
     },
@@ -62,7 +63,7 @@ export const MyData = {
             title: "HateShield",
             image: HateShield,
             description: "A website application that identifies if a given statement is hate speech or non-hate speech. It uses a trained Logistic Regression model and an Ensemble Model. (Thesis) ",
-            techs: ["ReactJS", "NextJs", "Flask", "NLP", "ML/AI"],
+            techs: ["React", "Next", "Flask", "NLP", "ML/AI"],
             github: "https://github.com/MrYious/HateShield-Frontend",
             demo: "https://hateshield.vercel.app/",
         },
@@ -70,7 +71,7 @@ export const MyData = {
             title: "Travel Route Planner",
             image: TRP,
             description: "A website that calculates the most optimal route in the given multiple destination. It solves the Traveling Salesman Problem using Brute Force and Heuristic Algorithm. ",
-            techs: ["HTML", "CSS", "JS", "ReactJS", "Maps API"],
+            techs: ["HTML", "CSS", "JS", "React", "Maps API"],
             github: "https://github.com/MrYious/Automatic-Travel-Route-Planner",
             demo: "https://travel-route-planner-315906.web.app/"
         },
@@ -93,10 +94,18 @@ export const MyData = {
         {
             title: "Mary Alston Hotel",
             image: MaryAlstonHotel,
-            description: "A hotel booking and reservation management system for a capstone project. It includes an admin interface in /admin that allows also includes payment system and sales report generation. ",
+            description: "A hotel booking and reservation management system for a capstone project. It includes an admin interface in /admin which also includes payment system and sales report generation. ",
             techs: ["HTML", "CSS", "JS", "PHP", "MySQL"],
             github: "https://github.com/MrYious/MaryAlstonHotel",
             demo: "https://maryalstonhotel.000webhostapp.com/alston_main.html"
+        },
+        {
+            title: "TODO App",
+            image: ToDo,
+            description: "A simple website for personal task management. It includes light/dark theme selection and saves state upon closure of the site. A challenged accepted from FrontendMentor.io",
+            techs: ["React", "Next", "Tailwind"],
+            github: "https://github.com/MrYious/TodoApp-NextJS",
+            demo: "https://todoapp-mark.vercel.app/"
         },
         // {
         //     title: "Title",
