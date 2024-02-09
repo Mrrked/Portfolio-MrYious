@@ -102,7 +102,7 @@ export const MyData = {
         {
             title: "TODO App",
             image: ToDo,
-            description: "A simple website for personal task management. It has a light/dark toggle for theme selection and has a mobile-friendly interface. A challenged accepted from FrontendMentor.io",
+            description: "A simple website for personal task management. It has a light/dark toggle for theme selection, has a mobile-friendly interface, and uses local storage. A challenged accepted from FrontendMentor.io",
             techs: ["React", "Typescript", "Next", "Tailwind"],
             github: "https://github.com/MrYious/TodoApp-NextJS",
             demo: "https://todoapp-mark.vercel.app/"
