@@ -112,7 +112,7 @@ export const MyData = {
             image: placeholder,
             description: "My ongoing project which is an interactive quiz application for teachers and students. It allows teachers to host quizzes for students synchronously and asynchronously. ",
             techs: ["React", "TS", "Node", "MongoDB", 'Redux'],
-            github: "https://github.com/MrYious",
+            github: "https://github.com/MrYious/SmartQ-Frontend",
             demo: "https://smartq.vercel.app/"
         }
         // {
