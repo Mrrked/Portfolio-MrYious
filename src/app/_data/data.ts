@@ -87,7 +87,7 @@ export const MyData = {
             title: "BloodLink",
             image: BloodLink,
             description: "A social application for donating blood and finding donors. Users have own timeline containing donation history and reviews where they can rate each other after every successful donation.",
-            techs: ["ReactJS", "NodeJS", "MySQL", "Express"],
+            techs: ["ReactJs", "NodeJs", "MySQL", "Express"],
             github: "https://github.com/MrYious/BloodLink",
             demo: "https://bloodlink.vercel.app/"
         },
@@ -107,6 +107,14 @@ export const MyData = {
             github: "https://github.com/MrYious/TodoApp-NextJS",
             demo: "https://todoapp-mark.vercel.app/"
         },
+        {
+            title: "SmartQ (Ongoing)",
+            image: placeholder,
+            description: "My ongoing project which is an interactive quiz application for teachers and students. It allows teachers to host quizzes for students synchronously and asynchronously. ",
+            techs: ["React","NextJs", "NodeJs", "JS", "ReactJS"],
+            github: "https://github.com/MrYious",
+            demo: "https://smartq.vercel.app/"
+        }
         // {
         //     title: "Title",
         //     image: placeholder,
