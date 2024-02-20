@@ -110,7 +110,7 @@ export const MyData = {
         {
             title: "Hangman (Ongoing)",
             image: placeholder,
-            description: "A fun and interactive hangman game consist of multiple categories and customizable",
+            description: "A fun and interactive hangman game consist of different categories. More features to be implemented starting with customizable time limit and hints!. ",
             techs: ["React", "Vite", "Typescript", 'Redux'],
             github: "https://github.com/MrYious/Hangman-Game",
             demo: "https://hangman-mark.vercel.app/"
