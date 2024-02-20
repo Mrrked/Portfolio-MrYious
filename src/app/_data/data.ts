@@ -108,6 +108,14 @@ export const MyData = {
             demo: "https://todoapp-mark.vercel.app/"
         },
         {
+            title: "Hangman (Ongoing)",
+            image: placeholder,
+            description: "A fun and interactive hangman game consist of multiple categories and customizable",
+            techs: ["React", "Vite", "Typescript", 'Redux'],
+            github: "https://github.com/MrYious/SmartQ-Frontend",
+            demo: "https://smartq.vercel.app/"
+        },
+        {
             title: "SmartQ (Ongoing)",
             image: placeholder,
             description: "My ongoing project which is an interactive quiz application for teachers and students. It allows teachers to host quizzes for students synchronously and asynchronously. ",
