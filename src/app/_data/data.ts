@@ -5,6 +5,7 @@ import { FaCss3Alt, FaGit, FaGithub, FaHtml5, FaJava, FaLaravel, FaNodeJs, FaPhp
 import { SiMysql, SiNextdotjs, SiPostman, SiTailwindcss } from "react-icons/si";
 
 import BloodLink from "../_assets/images/project_img/BloodLink.webp";
+import Hangman from "../_assets/images/project_img/Hangman.webp";
 import HateShield from "../_assets/images/project_img/HateShield.webp";
 import MaryAlstonHotel from "../_assets/images/project_img/MaryAlstonHotel.webp";
 import NightSpot from "../_assets/images/project_img/NightSpot.webp";
@@ -109,8 +110,8 @@ export const MyData = {
         },
         {
             title: "Hangman (Ongoing)",
-            image: placeholder,
-            description: "A fun and interactive hangman game consist of different categories. More features to be implemented starting with customizable time limit and hints!. ",
+            image: Hangman,
+            description: "A fun and interactive hangman game consist of different categories. More features to be implemented starting with customizable settings!",
             techs: ["React", "Vite", "Typescript", 'Redux'],
             github: "https://github.com/MrYious/Hangman-Game",
             demo: "https://hangman-mark.vercel.app/"
