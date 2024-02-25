@@ -17,7 +17,7 @@ import placeholder from "../_assets/images/project_img/placeholder.webp";
 export const MyData = {
     intro: {
         name:   "Mark Edison Rosario",
-        title:  "Full Stack Developer",
+        title:  "Aspiring Full Stack Developer",
         desc: ["Hi, you can call me Mark!", "I code ideas into existence, one line at a time."],
         links: {
             github:     "https://github.com/MrYious",
