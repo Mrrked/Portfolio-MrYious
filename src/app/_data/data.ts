@@ -69,22 +69,6 @@ export const MyData = {
             demo: "https://hateshield.vercel.app/",
         },
         {
-            title: "Travel Route Planner",
-            image: TRP,
-            description: "A website that calculates the most optimal route in the given multiple destination. It solves the Traveling Salesman Problem using Brute Force and Heuristic Algorithm. ",
-            techs: ["HTML", "CSS", "JS", "React", "Maps API"],
-            github: "https://github.com/MrYious/Automatic-Travel-Route-Planner",
-            demo: "https://travel-route-planner-315906.web.app/"
-        },
-        {
-            title: "NightSpot",
-            image: NightSpot,
-            description: "A desktop forum application that allows users to register for an account in order to create or join popular spots (channels) and post, comment and reply. Inspired by Reddit",
-            techs: ["Java", "JavaFX", "MySQL"],
-            github: "https://github.com/MrYious/NightSpot",
-            demo: "N/A"
-        },
-        {
             title: "BloodLink",
             image: BloodLink,
             description: "A social application for donating blood and finding donors. Users have own timeline containing donation history and reviews where they can rate each other after every successful donation.",
@@ -101,6 +85,22 @@ export const MyData = {
             demo: "https://maryalstonhotel.000webhostapp.com/alston_main.html"
         },
         {
+            title: "Travel Route Planner",
+            image: TRP,
+            description: "A website that calculates the most optimal route in the given multiple destination. It solves the Traveling Salesman Problem using Brute Force and Heuristic Algorithm. ",
+            techs: ["HTML", "CSS", "JS", "React", "Maps API"],
+            github: "https://github.com/MrYious/Automatic-Travel-Route-Planner",
+            demo: "https://travel-route-planner-315906.web.app/"
+        },
+        {
+            title: "NightSpot",
+            image: NightSpot,
+            description: "A desktop forum application that allows users to register for an account in order to create or join popular spots (channels) and post, comment and reply. Inspired by Reddit",
+            techs: ["Java", "JavaFX", "MySQL"],
+            github: "https://github.com/MrYious/NightSpot",
+            demo: "N/A"
+        },
+        {
             title: "TODO App",
             image: ToDo,
             description: "A simple website for personal task management. It has a light/dark toggle for theme selection, has a mobile-friendly interface, and uses local storage. A challenged accepted from FrontendMentor.io",
@@ -109,7 +109,7 @@ export const MyData = {
             demo: "https://todoapp-mark.vercel.app/"
         },
         {
-            title: "Hangman (Ongoing)",
+            title: "Hangman",
             image: Hangman,
             description: "A fun and interactive hangman game containing different categories. It includes customizable settings such as time limit, health and difficulty. More to come!",
             techs: ["React", "Vite", "Typescript", 'Redux'],
