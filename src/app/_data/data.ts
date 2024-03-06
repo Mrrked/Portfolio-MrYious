@@ -117,13 +117,21 @@ export const MyData = {
             demo: "https://hangman-mark.vercel.app/"
         },
         {
+            title: "Style.css",
+            image: placeholder,
+            description: "A simple website showcasing styled elements using SASS. It contains interactive and dynamic styles. I made this while learning SASS and Redux State Management.",
+            techs: ["React", 'Vite', 'Redux', 'SASS'],
+            github: "https://github.com/MrYious/Style.css",
+            demo: "https://style-css-mark.vercel.app/"
+        },
+        {
             title: "SmartQ (Ongoing)",
             image: placeholder,
             description: "My ongoing project which is an interactive quiz application for teachers and students. It allows teachers to host quizzes for students synchronously and asynchronously. ",
             techs: ["React", "TS", "Node", "MongoDB", 'Redux'],
             github: "https://github.com/MrYious/SmartQ-Frontend",
             demo: "https://smartq.vercel.app/"
-        }
+        },
         // {
         //     title: "Title",
         //     image: placeholder,
