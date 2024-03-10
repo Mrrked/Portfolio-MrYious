@@ -117,7 +117,7 @@ export const MyData = {
             demo: "https://hangman-mark.vercel.app/"
         },
         {
-            title: "Style.css",
+            title: "Style.css (Ongoing)",
             image: placeholder,
             description: "A simple website showcasing styled elements using SASS. It contains interactive and dynamic styles. I made this while learning SASS and Redux State Management.",
             techs: ["React", 'Vite', 'Redux', 'SASS'],
