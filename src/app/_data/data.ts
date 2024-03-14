@@ -1,8 +1,8 @@
 // import Profile from "../assets/profile.jpg";
 
 import { BiLogoCPlusPlus, BiLogoFlask, BiLogoJavascript, BiLogoMongodb, BiLogoTypescript } from "react-icons/bi";
-import { FaCss3Alt, FaGit, FaGithub, FaHtml5, FaJava, FaLaravel, FaNodeJs, FaPhp, FaPizzaSlice, FaPython, FaReact } from "react-icons/fa";
-import { SiMysql, SiNextdotjs, SiPostman, SiTailwindcss } from "react-icons/si";
+import { FaCss3Alt, FaGit, FaGithub, FaHtml5, FaJava, FaLaravel, FaNodeJs, FaPhp, FaPizzaSlice, FaPython, FaReact, FaSass } from "react-icons/fa";
+import { SiMysql, SiNextdotjs, SiPostman, SiRedux, SiTailwindcss } from "react-icons/si";
 
 import BloodLink from "../_assets/images/project_img/BloodLink.webp";
 import Hangman from "../_assets/images/project_img/Hangman.webp";
@@ -36,8 +36,10 @@ export const MyData = {
             { name: "Javascript",   icon: BiLogoJavascript,     category: "Frontend"},
             { name: "ReactJS",      icon: FaReact,              category: "Frontend"},
             { name: "Typescript",   icon: BiLogoTypescript,     category: "Frontend"},
+            { name: "Redux",        icon: SiRedux,              category: "Frontend"},
             { name: "NextJS",       icon: SiNextdotjs,          category: "Frontend"},
             { name: "TailwindCSS",  icon: SiTailwindcss,        category: "Frontend"},
+            { name: "SASS",         icon: FaSass,               category: "Frontend"},
 
             { name: "NodeJS",       icon: FaNodeJs ,            category: "Backend"},
             { name: "ExpressJS",    icon: FaPizzaSlice ,        category: "Backend"},
