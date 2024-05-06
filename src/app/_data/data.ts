@@ -20,7 +20,7 @@ export const MyData = {
         title:  "Aspiring Full Stack Developer",
         desc: ["Hi, you can call me Mark!", "I code ideas into existence, one line at a time."],
         links: {
-            github:     "https://github.com/MrYious",
+            github:     "https://github.com/Mrrked",
             linkedin:   "https://www.linkedin.com/in/rosariomark/",
         }
     },
@@ -145,11 +145,11 @@ export const MyData = {
         address:    "City of San Pedro, Laguna",
         phone:      "(+63) 932 283 1860",
         socials: {
-            github:     "https://github.com/MrYious",
+            github:     "https://github.com/Mrrked",
             facebook:   "https://www.facebook.com/MrYious0143/",
             linkedin:   "https://www.linkedin.com/in/rosariomark/",
             instagram:  "https://www.instagram.com/m_rked/",
-            reddit:     "https://www.reddit.com/user/MrYious43",
+            reddit:     "https://www.reddit.com/",
         }
     }
 }
